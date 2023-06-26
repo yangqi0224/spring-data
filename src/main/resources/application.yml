@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      #uri: mongodb://yangqi:yangqi@120.26.166.153:11817/?authSource=my_db
+      #uri: mongodb://yangqi:yangqi@192.168.0.104:27017/?authSource=my_db
+      #uri: mongodb://sdbadmin:sdbadmin@192.168.0.114:11817/?authSource=my_db
+      #uri: mongodb://120.26.166.153:11817/?authSource=test_db
+      #uri: mongodb://192.168.0.114:11817/?authSource=test_db
+      # 库名
+      database: my_db
+      # 巨杉数据库用户名，若无鉴权须省略该配置。
+      username: sdbadmin
+      # 巨杉数据库用户密码，若无鉴权须省略该配置。
+      password: sdbadmin
+      # 巨杉fap所在服务器ip
+      host: 192.168.0.114
+      # 巨杉fap端口
+      port: 11817
